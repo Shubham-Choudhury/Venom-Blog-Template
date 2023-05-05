@@ -484,7 +484,7 @@ footer {
 }
 
 .empty{
-  height: 45vh;
+  height: 50vh;
   display: grid;
   place-items: center;
 }
