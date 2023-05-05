@@ -469,6 +469,7 @@ footer {
 }
 
 .single-category a{
+  text-align: center;
   display: inline-block;
   font-size: 1rem;
   font-weight: 500;
@@ -484,12 +485,12 @@ footer {
 }
 
 .empty{
-  height: 50vh;
+  height: 70vh;
   display: grid;
   place-items: center;
 }
 
-.empty a{
+.empty .underline{
   font-size: 1.1rem;
   color: var(--second-color);
   font-weight: 500;
@@ -497,7 +498,7 @@ footer {
   position: relative;
 }
 
-.empty a::before{
+.empty .underline::before{
   content: "";
   position: absolute;
   bottom: 0;
@@ -514,7 +515,7 @@ footer {
   transform: scaleX(1);
 }
 
-.empty a:hover{
+.empty .underline:hover{
   color: var(--text-color);
 }
 
@@ -568,6 +569,10 @@ footer {
 
   .home-text {
     width: 100%;
+  }
+
+  .empty{
+    height: 70vh;
   }
 }
 
@@ -705,5 +710,9 @@ footer {
 
   .header-c {
     height: 150px;
+  }
+
+  .empty a{
+    font-size: 0.9rem;
   }
 }
